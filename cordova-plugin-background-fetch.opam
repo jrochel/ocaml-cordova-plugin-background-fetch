@@ -1,0 +1,19 @@
+opam-version: "1.2"
+name:         "cordova-plugin-background-fetch"
+version:      "0.1"
+
+maintainer:   "Jan Rochel <jan@besport.com>"
+author:       "Jan Rochel <jan@besport.com>"
+homepage:     "https://github.com/jrochel/ocaml-cordova-plugin-background-fetch"
+bug-reports:  "https://github.com/jrochel/ocaml-cordova-plugin-background-fetch/issues"
+dev-repo:     "https://github.com/jrochel/ocaml-cordova-plugin-background-fetch.git"
+license:      "CC0 1.0 Universal Public Domain Dedication"
+
+build: [make "build"]
+install: [make "install"]
+remove: [make "remove"]
+
+depends: [
+  "gen_js_api"
+]
+available: [ ocaml-version >= "4.03.0" ]

@@ -1,0 +1,3 @@
+version = "0.1"
+description = "Binding to cordova-plugin-background-fetch using gen_js_api"
+archive(byte) = "cordova_background_fetch.cma"
