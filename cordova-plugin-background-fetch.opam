@@ -1,5 +1,7 @@
 opam-version: "1.2"
 name:         "cordova-plugin-background-fetch"
+synopsis:     "Todo"
+description:  "Todo"
 version:      "0.1"
 
 maintainer:   "Jan Rochel <jan@besport.com>"
